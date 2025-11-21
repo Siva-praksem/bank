@@ -1,0 +1,30 @@
+# Ignore common build artifacts and dependencies
+/node_modules/
+/dist/
+/build/
+
+# Ignore log files
+*.log
+npm-debug.log*
+
+# Ignore temporary files
+*.tmp
+*.swp
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Ignore environment variables and sensitive information
+.env
+.env.local
+config.local.js
+
+# Ignore specific files
+my_secret_key.txt
+
+# Ignore IDE-specific files and folders
+.vscode/
+.idea/
+*.iml
+
+# Ignore test results and coverage reports
+/coverage/
